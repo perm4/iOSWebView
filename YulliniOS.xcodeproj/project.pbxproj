@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A98A887725C3D83A001664A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98A887625C3D83A001664A5 /* AppDelegate.swift */; };
+		A98A887925C3D83A001664A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98A887825C3D83A001664A5 /* SceneDelegate.swift */; };
+		A98A887B25C3D83A001664A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98A887A25C3D83A001664A5 /* ContentView.swift */; };
+		A98A887D25C3D83B001664A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98A887C25C3D83B001664A5 /* Assets.xcassets */; };
+		A98A888025C3D83B001664A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98A887F25C3D83B001664A5 /* Preview Assets.xcassets */; };
+		A98A888325C3D83B001664A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98A888125C3D83B001664A5 /* LaunchScreen.storyboard */; };
+		A98A888E25C3D83B001664A5 /* YulliniOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98A888D25C3D83B001664A5 /* YulliniOSTests.swift */; };
+		A98A889925C3D83B001664A5 /* YulliniOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98A889825C3D83B001664A5 /* YulliniOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A98A888A25C3D83B001664A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A98A886B25C3D83A001664A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A98A887225C3D83A001664A5;
+			remoteInfo = YulliniOS;
+		};
+		A98A889525C3D83B001664A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A98A886B25C3D83A001664A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A98A887225C3D83A001664A5;
+			remoteInfo = YulliniOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A98A887325C3D83A001664A5 /* YulliniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YulliniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98A887625C3D83A001664A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A98A887825C3D83A001664A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A98A887A25C3D83A001664A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A98A887C25C3D83B001664A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A98A887F25C3D83B001664A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A98A888225C3D83B001664A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A98A888425C3D83B001664A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98A888925C3D83B001664A5 /* YulliniOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YulliniOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98A888D25C3D83B001664A5 /* YulliniOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YulliniOSTests.swift; sourceTree = "<group>"; };
+		A98A888F25C3D83B001664A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98A889425C3D83B001664A5 /* YulliniOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YulliniOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98A889825C3D83B001664A5 /* YulliniOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YulliniOSUITests.swift; sourceTree = "<group>"; };
+		A98A889A25C3D83B001664A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A98A887025C3D83A001664A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98A888625C3D83B001664A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98A889125C3D83B001664A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A98A886A25C3D83A001664A5 = {
+			isa = PBXGroup;
+			children = (
+				A98A887525C3D83A001664A5 /* YulliniOS */,
+				A98A888C25C3D83B001664A5 /* YulliniOSTests */,
+				A98A889725C3D83B001664A5 /* YulliniOSUITests */,
+				A98A887425C3D83A001664A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A98A887425C3D83A001664A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A98A887325C3D83A001664A5 /* YulliniOS.app */,
+				A98A888925C3D83B001664A5 /* YulliniOSTests.xctest */,
+				A98A889425C3D83B001664A5 /* YulliniOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A98A887525C3D83A001664A5 /* YulliniOS */ = {
+			isa = PBXGroup;
+			children = (
+				A98A887625C3D83A001664A5 /* AppDelegate.swift */,
+				A98A887825C3D83A001664A5 /* SceneDelegate.swift */,
+				A98A887A25C3D83A001664A5 /* ContentView.swift */,
+				A98A887C25C3D83B001664A5 /* Assets.xcassets */,
+				A98A888125C3D83B001664A5 /* LaunchScreen.storyboard */,
+				A98A888425C3D83B001664A5 /* Info.plist */,
+				A98A887E25C3D83B001664A5 /* Preview Content */,
+			);
+			path = YulliniOS;
+			sourceTree = "<group>";
+		};
+		A98A887E25C3D83B001664A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A98A887F25C3D83B001664A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A98A888C25C3D83B001664A5 /* YulliniOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A98A888D25C3D83B001664A5 /* YulliniOSTests.swift */,
+				A98A888F25C3D83B001664A5 /* Info.plist */,
+			);
+			path = YulliniOSTests;
+			sourceTree = "<group>";
+		};
+		A98A889725C3D83B001664A5 /* YulliniOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A98A889825C3D83B001664A5 /* YulliniOSUITests.swift */,
+				A98A889A25C3D83B001664A5 /* Info.plist */,
+			);
+			path = YulliniOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A98A887225C3D83A001664A5 /* YulliniOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98A889D25C3D83B001664A5 /* Build configuration list for PBXNativeTarget "YulliniOS" */;
+			buildPhases = (
+				A98A886F25C3D83A001664A5 /* Sources */,
+				A98A887025C3D83A001664A5 /* Frameworks */,
+				A98A887125C3D83A001664A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YulliniOS;
+			productName = YulliniOS;
+			productReference = A98A887325C3D83A001664A5 /* YulliniOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A98A888825C3D83B001664A5 /* YulliniOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98A88A025C3D83B001664A5 /* Build configuration list for PBXNativeTarget "YulliniOSTests" */;
+			buildPhases = (
+				A98A888525C3D83B001664A5 /* Sources */,
+				A98A888625C3D83B001664A5 /* Frameworks */,
+				A98A888725C3D83B001664A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A98A888B25C3D83B001664A5 /* PBXTargetDependency */,
+			);
+			name = YulliniOSTests;
+			productName = YulliniOSTests;
+			productReference = A98A888925C3D83B001664A5 /* YulliniOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A98A889325C3D83B001664A5 /* YulliniOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98A88A325C3D83B001664A5 /* Build configuration list for PBXNativeTarget "YulliniOSUITests" */;
+			buildPhases = (
+				A98A889025C3D83B001664A5 /* Sources */,
+				A98A889125C3D83B001664A5 /* Frameworks */,
+				A98A889225C3D83B001664A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A98A889625C3D83B001664A5 /* PBXTargetDependency */,
+			);
+			name = YulliniOSUITests;
+			productName = YulliniOSUITests;
+			productReference = A98A889425C3D83B001664A5 /* YulliniOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A98A886B25C3D83A001664A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A98A887225C3D83A001664A5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A98A888825C3D83B001664A5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A98A887225C3D83A001664A5;
+					};
+					A98A889325C3D83B001664A5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A98A887225C3D83A001664A5;
+					};
+				};
+			};
+			buildConfigurationList = A98A886E25C3D83A001664A5 /* Build configuration list for PBXProject "YulliniOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A98A886A25C3D83A001664A5;
+			productRefGroup = A98A887425C3D83A001664A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A98A887225C3D83A001664A5 /* YulliniOS */,
+				A98A888825C3D83B001664A5 /* YulliniOSTests */,
+				A98A889325C3D83B001664A5 /* YulliniOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A98A887125C3D83A001664A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98A888325C3D83B001664A5 /* LaunchScreen.storyboard in Resources */,
+				A98A888025C3D83B001664A5 /* Preview Assets.xcassets in Resources */,
+				A98A887D25C3D83B001664A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98A888725C3D83B001664A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98A889225C3D83B001664A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A98A886F25C3D83A001664A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98A887725C3D83A001664A5 /* AppDelegate.swift in Sources */,
+				A98A887925C3D83A001664A5 /* SceneDelegate.swift in Sources */,
+				A98A887B25C3D83A001664A5 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98A888525C3D83B001664A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98A888E25C3D83B001664A5 /* YulliniOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98A889025C3D83B001664A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98A889925C3D83B001664A5 /* YulliniOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A98A888B25C3D83B001664A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A98A887225C3D83A001664A5 /* YulliniOS */;
+			targetProxy = A98A888A25C3D83B001664A5 /* PBXContainerItemProxy */;
+		};
+		A98A889625C3D83B001664A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A98A887225C3D83A001664A5 /* YulliniOS */;
+			targetProxy = A98A889525C3D83B001664A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A98A888125C3D83B001664A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98A888225C3D83B001664A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A98A889B25C3D83B001664A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A98A889C25C3D83B001664A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A98A889E25C3D83B001664A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"YulliniOS/Preview Content\"";
+				DEVELOPMENT_TEAM = U74R3Y4T9C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = YulliniOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yullin.YulliniOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A98A889F25C3D83B001664A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"YulliniOS/Preview Content\"";
+				DEVELOPMENT_TEAM = U74R3Y4T9C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = YulliniOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yullin.YulliniOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A98A88A125C3D83B001664A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U74R3Y4T9C;
+				INFOPLIST_FILE = YulliniOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yullin.YulliniOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YulliniOS.app/YulliniOS";
+			};
+			name = Debug;
+		};
+		A98A88A225C3D83B001664A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U74R3Y4T9C;
+				INFOPLIST_FILE = YulliniOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yullin.YulliniOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YulliniOS.app/YulliniOS";
+			};
+			name = Release;
+		};
+		A98A88A425C3D83B001664A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U74R3Y4T9C;
+				INFOPLIST_FILE = YulliniOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yullin.YulliniOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YulliniOS;
+			};
+			name = Debug;
+		};
+		A98A88A525C3D83B001664A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U74R3Y4T9C;
+				INFOPLIST_FILE = YulliniOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yullin.YulliniOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YulliniOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A98A886E25C3D83A001664A5 /* Build configuration list for PBXProject "YulliniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98A889B25C3D83B001664A5 /* Debug */,
+				A98A889C25C3D83B001664A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98A889D25C3D83B001664A5 /* Build configuration list for PBXNativeTarget "YulliniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98A889E25C3D83B001664A5 /* Debug */,
+				A98A889F25C3D83B001664A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98A88A025C3D83B001664A5 /* Build configuration list for PBXNativeTarget "YulliniOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98A88A125C3D83B001664A5 /* Debug */,
+				A98A88A225C3D83B001664A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98A88A325C3D83B001664A5 /* Build configuration list for PBXNativeTarget "YulliniOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98A88A425C3D83B001664A5 /* Debug */,
+				A98A88A525C3D83B001664A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A98A886B25C3D83A001664A5 /* Project object */;
+}
